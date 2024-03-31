@@ -31,23 +31,20 @@ texto original: "ola mundo" -> texto criptografado: "oberlai mufatndober"
 Descriptografia
 texto criptografado: "oberlai mufatndober" -> texto original: "ola mundo"
 
-
-Funcionalidade - Modo Light e Dark
-
-<p align="center" >
-    <img src="./.github/layout-light.png">
-</p>
-
-<p align="center" >
-    <img src="./.github/layout-dark.png">
-</p>
-
 # 👨‍💻 Tecnologias
 
 Tecnologias utilizadas durante o desenvolvimento do projeto:
 
 - HTML e CSS
 - JavaScript
+
+# Visualização do Projeto no Modo Light
+
+![image](https://github.com/RuanVinicios/Decodificador/assets/20088277/5f4e6058-4c60-4302-aa60-60e5f81060d5)
+
+# Visualização do Projeto no Modo Light
+
+![image](https://github.com/RuanVinicios/Decodificador/assets/20088277/837d3070-0d32-4b08-b813-ba94f712f79f)
 
 
 
