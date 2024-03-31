@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/logo-alura_resized.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Decodificador</title>
+</head>
+<body background="assets/icons-svg/unsplash.jpg">
+    <main class="main">
+        <header class="main__header">
+            <ul class="main__avatar">
+                <li>
+                    <img class="main__image" src="./assets/user-image.png" alt="Imagem desenvolvedor"/>
+                </li>
+                <li class="main__wrapper-menu">
+                    <ul class="main__menu">
+                        <li class="main__item">
+                            <a class="main__link" href="https://www.linkedin.com/in/rvruan-vinicios/" target="_blank">
+                                <img class="main__social-media" src="./assets/icons-svg/linkedin.png" alt="Icone Linkedin">
+                                Linkedin
+                            </a>
+                        </li>
+                        <li class="main__item is-one-row">
+                            <a class="main__link" href="https://github.com/RuanVinicios" target="_blank">
+                                <img class="main__social-media" src="./assets/icons-svg/git-hub.png" alt="Icone GitHub">
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h1 class="main__title">Alura - Projeto Decodificador</h1>
+        </header>
+        <div class="main__content">
+            <div class="main__wrapper-textarea">
+                <textarea class="main__textarea js-textarea" placeholder="Digite o seu texto! (Apenas letras minúsculas e sem acento)"></textarea>
+            </div>
+            <div class="main__wrapper-button">
+                <button class="is-button-large is-encrypt js-encrypt" type="button">
+                    <img class="is-icon-black" src="./assets/icons-svg/encrypt.png" alt="cadeado fechado">
+                    Criptografar
+                </button>
+                <button class="is-button-large is-descrypt js-descrypt" type="button">
+                    <img class="is-icon-white" src="./assets/icons-svg/descrypt.png" alt="cadeado aberto">
+                    Descriptografar
+                </button>
+            </div>
+        </main>
+    </main>
+    <aside class="aside">
+        <header class="aside__header">
+            <input class="aside__checkbox js-checkbox" id="checkbox" type="checkbox" name="checkbox">
+            <div class="aside__button-toggle">
+                <img class="aside__icon-theme is-icon-white is-moon" src="./assets/icons-svg/moon.png">
+                <img class="aside__icon-theme is-icon-black" src="./assets/icons-svg/sun.png">
+                <label for="checkbox" class="aside__circle js-btn-toggle"></label>
+            </div>
+        </header>
+        <section class="aside__display">
+            <div class="aside__display-text  js-display-text">
+                <div class="aside__image" >
+                    <img src="./assets/icons-svg/tron2_resized.jpg" alt="Imagem tron">
+                </div>
+                <div class="aside__message">
+                    <h2 class="aside__title">Nenhuma mensagem</h2>
+                    <p class="aside__paragraph">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+            <button class="aside__copy is-button-large is-button-copy js-btn-copy" type="button">
+                Copiar
+            </button>
+        </section>
+    </aside>
+    <script src="./script.js"></script>
+</body>
+</html>
