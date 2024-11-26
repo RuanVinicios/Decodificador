@@ -42,7 +42,7 @@ Tecnologias utilizadas durante o desenvolvimento do projeto:
 
 ![image](https://github.com/RuanVinicios/Decodificador/assets/20088277/5f4e6058-4c60-4302-aa60-60e5f81060d5)
 
-# Visualização do Projeto no Modo Light
+# Visualização do Projeto no Modo Dark
 
 ![image](https://github.com/RuanVinicios/Decodificador/assets/20088277/837d3070-0d32-4b08-b813-ba94f712f79f)
 
