@@ -46,6 +46,8 @@ Tecnologias utilizadas durante o desenvolvimento do projeto:
 
 ![image](https://github.com/RuanVinicios/Decodificador/assets/20088277/837d3070-0d32-4b08-b813-ba94f712f79f)
 
+# Deploy do Projeto
 
+=> https://lnkd.in/dKNz6Amv
 
 
